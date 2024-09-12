@@ -83,4 +83,4 @@ jobs:
             context: ..
             file: ../star/Dockerfile
             push: true
-            tags: ${{ secrets.DOCKERHUB_USERNAME }}/magnetar:latest
+            tags: ${{ secrets.DOCKERHUB_USERNAME }}/star:latest
